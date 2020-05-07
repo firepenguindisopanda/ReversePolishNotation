@@ -1,0 +1,24 @@
+Infix: 2*9^(5-1)
+PostFix: 2951-^*
+Answer: 13122
+
+Infix: 2 * (3+6) + (9-5) - 6*9
+PostFix: 236+*95-+69*-
+Answer: -32
+
+Invalid: 7 * (6 - 1) * (1+1)) - 5/5
+
+Infix: (1 + 6 * 5)/(6 + 3 * 2)
+PostFix: 165*+632*+/
+Answer: 2.58333
+
+Invalid: 2 ^ (8 - 2) + (((7-5)) - 2*2
+
+Infix: (2*1) - ((1 + 4 * 2)/5/5) * 5
+PostFix: 21*142*+5/5/5*-
+Answer: 0.2
+
+Infix: (2/1/1)- 1^4
+PostFix: 21/1/14^-
+Answer: 1
+
