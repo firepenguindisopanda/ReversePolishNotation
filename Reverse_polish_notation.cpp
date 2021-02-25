@@ -56,7 +56,7 @@ int main()
 	Node * top,*top2;
 	top=NULL;
 	char ch;
-	//int ans;
+
 	float ans;
 	ifstream input1;
 	ofstream output1;
@@ -76,17 +76,16 @@ int main()
 		input1>> ch;
 		while(ch != '$')
 		{
-			//cout<<ch;
-			//top=insertathead(top,ch);
+
 			top=insertattail(top,ch);
 			
 			if(ch=='\n')
 			{
-				//print(top);
+
 				
 				if(isvalid(top)==true)
 				{
-					//cout<<"Valid"<<endl;
+
 					cout<<"Infix: ";
 					print(top);
 					cout<<"PostFix: ";
@@ -135,7 +134,7 @@ int main()
 			input1>>ch;
 		}
 	}
-	//print(top);	
+
 	return 0;
 }
 
@@ -213,7 +212,7 @@ float evaluate(Node*top)//test
 		Curr=Curr->next;
 	}
 	
-	//cout<<ans;
+
 	return ans;
 	cout<<endl;
 	return 0;		
@@ -424,7 +423,7 @@ Node* RPN(stack*s,Node*top)
 									{
 										if(t>=cu)
 										{
-											//cout<<pop(sym);
+
 											char test;
 											test=pop(sym);
 											cout<<test;
@@ -442,8 +441,7 @@ Node* RPN(stack*s,Node*top)
 							{
 								if(cu==st)
 								{
-									//cout<<pop(sym);
-									//push(sym,curr->data);
+									
 									char test;
 									
 									test = pop(sym);
