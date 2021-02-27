@@ -138,6 +138,9 @@ int main()
 	return 0;
 }
 
+//Returns the answer evaluated from the valid expressions
+//Parameters:
+//Node * top -> The top of the linked list that contains the expression to be evaluated
 float evaluate(Node*top)//test
 {
 	Node*Curr;
