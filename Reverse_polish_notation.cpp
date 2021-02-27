@@ -7,6 +7,9 @@
 
 using namespace std;
 
+/*
+Beginning of Struct and function definitions
+*/
 struct Node
 {
 	char data;
@@ -51,6 +54,9 @@ float pop2(stackdigit *n);
 bool isFULL(stackdigit *d);
 //end of new addition
 
+/*
+Ending of Structs and function Definitions
+*/
 int main()
 {
 	Node * top,*top2;
